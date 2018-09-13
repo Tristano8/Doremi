@@ -1,0 +1,27 @@
+{
+  "name": "doremi-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "PORT=3001 nodemon ./bin/www",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "express-handlebars": "^3.0.0",
+    "express-react-views": "^0.10.5",
+    "mongoose": "^5.1.0",
+    "mongoui": "^4.2.1",
+    "morgan": "~1.9.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "serve-favicon": "~2.4.5"
+  },
+  "devDependencies": {
+    "mocha": "^5.1.0",
+    "nodemon": "^1.17.3"
+  }
+}

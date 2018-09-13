@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.main-navigation {
+  background-color: #669cff;
+  color: #00B7FF;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.main-navigation a {
+  color: white;
+  background-color: #000000;
+  padding: 5px 10px;
+  text-align: center;
+  border: 1px solid red;
+}
+
+.main-navigation #spacing {
+  flex: 5 0 50%;
+  min-width: 50px;
+}
+
+.main-navigation #home {
+  flex: 1;
+}
+
+.main-navigation #signup {
+  flex: 1;
+}
+
+.main-navigation #login {
+  flex: 1;
+}
